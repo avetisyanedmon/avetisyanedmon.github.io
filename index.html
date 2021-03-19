@@ -1,25 +1,299 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="style.css" rel="stylesheet">
-    <title>Flappy Bird!</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="junior.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Cardo:ital@1&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+
+  <meta name="viewport" content="width=device-width, inital-scale=0">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+
+  <title>Active Box</title>
 </head>
 <body>
+<header class="header " id="header">
+  <div class="container">
+    <div class="header__inner">
+      <div class="header__logo">
+        <img src="images/logo.png" alt="">
+      </div>
+      <div class="nav" id="nav">
+        <div href="#" class="nav__link" data-scroll="#feautures">Feautures</div>
+        <div href="#" class="nav__link" data-scroll="#works">WOrks</div>
+        <div href="#" class="nav__link" data-scroll="#team">Our Team</div>
+        <div href="#" class="nav__link" data-scroll="#test">Testimonials</div>
+        <div href="#" class="nav__link" data-scroll="#download">Download</div>
+    </div>
+      <div class="burger">
+        <button class="burger_item" id="navToggle">Menu</button>
+        
+      </div>
+    </div>
+  </div>
+
+</header>
+<div class="intro" id="intro">
+  <div class="container">
+    <div class="intro__inner">
+    <h1 class="intro__title">Your Favorite One Page
+      Multi Purpose Template</h1>
+      <h2 class="intro__title2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent commodo cursus magna
+        vel scelerisque nisl consectetur et.</h2>
+    </div>
+    <a href="#" class="but">Find out more</a>
+  </div>
+
+
+</div>
+<div class="header2" id="feautures">
+  <div class="container2">
+    <div class="content1">
+      <img  class="logo_1" src="feautures/logo1.png">
+      <h1>Easly Costomised</h1>
+      <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Nullam quis risus eget urna mollis ornare vel eu leo. Donec ullamcorper nulla non metus auctor fringilla.</p>
+
+    </div>
+    <div class="content1">
+      <img  class="logo_1" src="feautures/logo2.png">
+      <h1>Easly Costomised</h1>
+      <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Nullam quis risus eget urna mollis ornare vel eu leo. Donec ullamcorper nulla non metus auctor fringilla.</p>
+
+    </div>
+    <div class="content1">
+      <img  class="logo_1" src="feautures/logo3.png">
+      <h1>Easly Costomised</h1>
+      <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Nullam quis risus eget urna mollis ornare vel eu leo. Donec ullamcorper nulla non metus auctor fringilla.</p>
+
+    </div>
+    <div class="content1">
+      <img  class="logo_1" src="feautures/logo4.png">
+      <h1>Easly Costomised</h1>
+      <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Nullam quis risus eget urna mollis ornare vel eu leo. Donec ullamcorper nulla non metus auctor fringilla.</p>
+
+    </div>
+    <div class="content1">
+      <img  class="logo_1" src="feautures/logo5.png">
+      <h1>Easly Costomised</h1>
+      <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Nullam quis risus eget urna mollis ornare vel eu leo. Donec ullamcorper nulla non metus auctor fringilla.</p>
+
+    </div>
+    <div class="content1">
+      <img  class="logo_1" src="feautures/logo6.png">
+      <h1>Easly Costomised</h1>
+      <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Nullam quis risus eget urna mollis ornare vel eu leo. Donec ullamcorper nulla non metus auctor fringilla.</p>
+
+    </div>
+
+
+  </div>
+
+</div>
+<div class="pictures1" id="works">
+  <div class="work">
+    <img  class="works_photo" src="images/work-1.jpg">
+    <div class="work_content">
+      <div class="work_title">Project Name</div>
+      <div class="work_text">User Interface Design</div>
+    </div>
+
+  </div>
+  <div class="work">
+    <img  class="works_photo" src="images/work-2.jpg">
+    <div class="work_content">
+      <div class="work_title">Project Name</div>
+      <div class="work_text">User Interface Design</div>
+    </div>
+
+  </div>
+  <div class="work">
+    <img  class="works_photo" src="images/work-3.jpg">
+    <div class="work_content">
+      <div class="work_title">Project Name</div>
+      <div class="work_text">User Interface Design</div>
+    </div>
+
+  </div>
+  <div class="work">
+    <img  class="works_photo" src="images/work-4.jpg">
+    <div class="work_content">
+      <div class="work_title">Project Name</div>
+      <div class="work_text">User Interface Design</div>
+    </div>
+
+  </div>
+  <div class="work">
+    <img  class="works_photo" src="images/work-5.jpg">
+    <div class="work_content">
+      <div class="work_title">Project Name</div>
+      <div class="work_text">User Interface Design</div>
+    </div>
+
+  </div>
+  <div class="work">
+    <img  class="works_photo" src="images/work-6.jpg">
+    <div class="work_content">
+      <div class="work_title">Project Name</div>
+      <div class="work_text">User Interface Design</div>
+    </div>
+
+  </div>
+  <div class="work">
+    <img  class="works_photo" src="images/work-7.jpg">
+    <div class="work_content">
+      <div class="work_title">Project Name</div>
+      <div class="work_text">User Interface Design</div>
+    </div>
+
+  </div>
+  <div class="work">
+    <img  class="works_photo" src="images/work-8.jpg">
+    <div class="work_content">
+      <div class="work_title">Project Name</div>
+      <div class="work_text">User Interface Design</div>
+    </div>
+
+  </div>
+
+   
     
+  </div>
+
+
+
+</div>
+<div class="clients" id="team">
+  <div class="clients_inner">
+    <div class="clients1">
+      <img src="images/team-1.jpg" alt="">
+      <h1 class="clients_name">Rooth Woods</h1>
+      <h1 class="clients_role">Founder. Ceo</h1>
+      <p class="client_about">Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Maecenas sed diam eget risus varius blandit sit amet non magna. Nullam quis risus eget urna mollis ornare vel eu leo.</p>
+      <div class="social">
+        <div class="social1"></div>
+        <div class="social1"></div>
+        <div class="social1"></div>
+      </div>
+    </div>
+    <div class="clients1">
+      <img src="images/team-2.jpg" alt="">
+      <h1 class="clients_name">Timothy Reed</h1>
+      <h1 class="clients_role">Co-founder. developer</h1>
+      <p class="client_about">Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Maecenas sed diam eget risus varius blandit sit amet non magna. Nullam quis risus eget urna mollis ornare vel eu leo.</p>
+      <div class="social">
+        <div class="social1"></div>
+        <div class="social1"></div>
+        <div class="social1"></div>
+      </div>
+    </div>
+    <div class="clients1">
+      <img src="images/team-3.jpg" alt="">
+      <h1 class="clients_name">Victoria Valdez</h1>
+      <h1 class="clients_role">Ui designer</h1>
+      <p class="client_about">Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Maecenas sed diam eget risus varius blandit sit amet non magna. Nullam quis risus eget urna mollis ornare vel eu leo.</p>
+      <div class="social">
+        <div class="social1"></div>
+        <div class="social1"></div>
+        <div class="social1"></div>
+      </div>
+    </div>
+    <div class="clients1">
+      <img src="images/team-4.jpg" alt="">
+      <h1 class="clients_name">Beverly</h1>
+      <h1 class="clients_role">Data scentist</h1>
+      <p class="client_about">Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Maecenas sed diam eget risus varius blandit sit amet non magna. Nullam quis risus eget urna mollis ornare vel eu leo.</p>
+      <div class="social">
+        <div class="social1"></div>
+        <div class="social1"></div>
+        <div class="social1"></div>
+      </div>
+    </div>
+
+  </div>
+
+</div>
+
+
+<div class="testimonials" id="test">
+  <div class="container_1">
     
-    
-    <canvas id="canvas" width="288" height="512"></canvas>
-    
-    
-    
-    
-    
-    
-    
-    
-    <script src="app.js"></script>
+   <div id="reviewsSlider">
+    <div>
+    <div class="test_inner">
+        <div class="test_photo">
+          <img class="test_photo1" src="images/testimonial-1.jpg">
+        </div>
+        <div class="test_content">
+         <div class="test_title">“Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Donec sed odio dui. Aenean eu leo quam...”</div>
+        <div class="test_author">Susan Sims, Interaction Designer at XYZ</div>
+        </div>
+      </div>
+    </div> 
+    <div>
+    <div class="test_inner">
+      <div class="test_photo">
+        <img class="test_photo1" src="images/testimonial-2.jpg">
+      </div>
+      <div class="test_content">
+        <div class="test_title">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque voluptatibus voluptatem quibusdam, assumenda sit pariatur atque ipsam quod vitae quas et temporibus nesciunt earum nulla omnis perspiciatis dolores suscipit odit?</div>
+        <div class="test_author">Susan Sims, Interaction Designer at XYZ</div>
+      </div>
+    </div>
+  </div>
+</div> 
+
+  </div>
+</div>
+
+
+
+
+<div class="footer" id="download">
+  <div class="footer_inner">
+    <h1 class="footer_title">Are You Ready to Start? Download Now For Free!</h1>
+    <p class="footer_title2">Fusce dapibus, tellus ac cursus commodo</p>
+    <a href="#" class="butt2">Download Here</a>
+
+  </div>
+
+</div>
+<div class="footer2">
+  <div class="footer_inner2">
+    <div  class="footer_inn">
+      <h1 class="footer_inn2">Location</h1>
+      <p class="footer_inn3">3481 Melrose Place
+        Beverly Hills, CA 90210</p>
+
+    </div>
+    <div class="footer_inn">
+      <h1 class="footer_inn2">Share with love</h1>
+       <div class="box">
+       <div class="box1"></div>
+       <div class="box1"></div>
+       <div class="box1"></div>
+       </div>
+    </div>
+    <div  class="footer_inn">
+      <h1 class="footer_inn2">About activebox</h1>
+      <p class="footer_inn4">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec ullamcorper nulla non metus auctor fringilla.</p>
+
+    </div>
+
+  </div>
+
+</div>
+<div class="footer_1">
+  <div class="footer_inner1">
+    <h1 class="footer_text1">Copyright © 2015 ActiveBox. All Rights Reserved
+      Made with <span class="text_white"> by Kamal Chaneman</span></h1>
+
+  </div>
+</div>
+<script src="app.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
 </body>
 </html>
